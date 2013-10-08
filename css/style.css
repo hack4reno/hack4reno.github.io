@@ -830,3 +830,17 @@ img { max-width: 100%; }
 :-moz-placeholder {  
 	color: #dd3333;
 }
+
+.winner { position: relative; }
+.badge { position: absolute; right: -20px; top: -20px; }
+.challenge { padding: 20px; background-color: #ececec; margin: 20px 0px; }
+.challenge h2 { text-transform: none; font-size: 1.8em;  }
+.sponsor { font-size: .5em; float: right; font-family: georgia, serif; margin-top: 4px; }
+.reno { color: #449129 !important; }
+.renown { color: #492783 !important; }
+.blc { color: black !important; }
+.playvideo {opacity: .20; }
+
+@media (max-width: 480px) {
+    .sponsor { display: none; }
+}
