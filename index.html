@@ -1,346 +1,138 @@
-<!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
-<head>
 
-	<!-- Basic Page Needs
-	================================================== -->
-	<meta charset="utf-8">
-	<title>Hack4Reno 2014</title>
-	<meta name="description" content="Hack4Reno is a weekend hackathon event for building apps that create a more informed and engaged community in the city of Reno. ">
-	<meta name="author" content="Hack4Reno">
-	
-	<!-- Mobile Specific Metas
-	================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	
-	<!-- CSS Files
-
-	* alpha_background.css		- Classes for applying an alpha black or white background
-	* grid.css					- Responsive grid system based on "Skeleton" by Dave Gamache (http://www.getskeleton.com/)
-	* style.css					- Most of the css is here
-	* responsive_custom			- CSS override for responsive layout
-	================================================== -->
-	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.8.0/build/cssreset/cssreset-min.css">
-	<link rel="stylesheet" href="css/alpha_background.css">
-	<link rel="stylesheet" href="css/grid.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/responsive_custom.css">
-	
-	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-
-	<!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-	
-	<!-- Google Web Fonts
-
-	* This template uses 'PT Serif' and 'Open Sans'
-	================================================== -->
-	<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
-
-</head>
-<body data-spy="scroll" data-target="#section-topbar">
-
-	<!-- Topbar: fixed + datascroll
-
-	* the attribute data-scrollspy is for automatically updating nav targets based on scroll position
-	* scroll the area below the navbar and watch the active class change
-	================================================== -->
-	<div id="section-topbar">
-		<div id="topbar-inner">
-			<div class="container">
-				<div class="sixteen columns">
-					<div class="dropdown">
-						<ul id="nav" class="nav">
-							<li class="menu-item"><a href="#section-header">Home</a></li>
-							<li class="menu-item"><a href="#section-register">Register</a></li>
-							<li class="menu-item"><a href="#section-programs">Schedule</a></li>
-							<li class="menu-item"><a href="faq.html">FAQ</a></li>
-							<li class="menu-item"><a href="data.html">Data</a></li>
-						</ul><!-- // uL#nav -->
-					</div><!-- // .dropdown -->
-
-					<div class="clear"></div>
-				</div><!-- // .sixteen -->
-			</div><!-- // .container -->
-
-			<div class="clear"></div>
-		</div><!-- // #topbar-inner -->
-	</div><!-- // #section-topbar -->
-	
-
-
-	<!-- Event
-
-	* Event title & date, time, and location
-	================================================== -->
-	<div id="section-header">
-		<div class="container">
-			<div class="seven columns">
-				<h1><a><img src="images/hack4reno.png" alt="Hack4Reno 2014"></a></h1>
-			</div><!-- // .seven -->
-
-			<div class="eight offset-by-one columns">
-				<p id="logo-desc">
-					<img src="images/desc_image.png" alt="" />
-					<span class="font-color-primary">Hack4Reno</span> is a weekend hackathon event for building apps that create a more informed and engaged community in the city of Reno.
-				</p>
-			</div><!-- // .eight -->
-
-			<div class="clear"></div>
-		</div><!-- // .container -->
-
-		<div id="section-info">
-			<div class="container">
-				<div class="four columns">
-					<h2>Event Details</h2>
-				</div><!-- // .four -->
-
-				<div class="four columns">
-					<div id="box-date">
-						<h3>Date</h3>
-						<p>October 25-26, 2014</p>
-					</div><!-- // #box-date -->
-				</div><!-- // .four -->
-
-				<div class="four columns">
-					<div id="box-time">
-						<h3>Time</h3>
-						<p>10/25 9am - 10pm</p>
-						<p>10/26 9am - 5pm</p>
-					</div><!-- // #box-time -->
-				</div><!-- // .four -->
-
-				<div class="four columns">
-					<div id="box-location">
-						<h3>Location</h3>
-						<p><a href = "http://renocollective.com" target = "_blank" style = "color: white">Reno Collective</a></p>
-					</div><!-- // #box-location -->
-				</div><!-- // .four -->
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Hack For Reno Summit</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/flexslider.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/elegant-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/pe-icon-7-stroke.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/theme-lava.css" rel="stylesheet" type="text/css" media="all"/>
+        <!--[if gte IE 9]>
+        	<link rel="stylesheet" type="text/css" href="css/ie9.css" />
+		<![endif]-->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+    
+    	<div class="loader">
+    		<div class="strip-holder">
+				<div class="strip-1"></div>
+				<div class="strip-2"></div>
+				<div class="strip-3"></div>
+    		</div>
+    	</div>
+    	
+    	<a id="top"></a>
 				
-				<div class="clear"></div>
-			</div><!-- // .container -->
-		</div><!-- // #section-info -->
-	</div><!-- // #section-header -->
-
-
-	<!-- Registration
-	================================================== -->
-	<div id="section-register">
-		<div class="container">
-			<div class="eleven columns">
-				<h2>Register</h2>
-				<p class="desc">sign up now to build or find a team</p>
+		<div class="nav-container">
+						
+				<nav class="overlay-nav">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-2">
+								<a href="index.html">
+									<img alt="Logo" class="logo logo-light" src="img/logo.png">
+									<img alt="Logo" class="logo logo-dark" src="img/logo-dark.png">
+								</a>
+							</div>
+					
+							<div class="col-md-10 text-right">
+								<ul class="menu" style="margin-right: 32px;">
+									<li class="social-link"><a href="https://twitter.com/hack4reno"><i class="icon social_twitter"></i></a></li>
+									<li class="social-link"><a href="https://facebook.com/hack4reno"><i class="icon social_facebook"></i></a></li>
+								</ul>
+								<div class="mobile-menu-toggle"><i class="icon icon_menu"></i></div>
+							</div>
+						</div><!--end of row-->
+					</div><!--end of container-->
+						
+				</nav>
+		
+						
 				
-				<p style = "background-color: #008D3B; color: white; padding: 20px; width: 80%;"><a href = "http://hack4reno.challengepost.com" style = "color: white">Register today on ChallengePost</a> <span style = "font-size: 80%; padding-left: 20px"><a href = "http://facebook.com/hack4reno" target = "_blank" style = "color: black">Follow us on Facebook for updates</a></span></p>
+		</div>
+		<div class="main-container"><a id="home" class="in-page-link"></a>
 			
-			</div><!-- // .twelve -->
-
-			<div class="five columns">
-				<div id="box-contact">
-					<h3>Address and Phone</h3>
-					<p class="address">
-						<strong class="font-color-white underline-color-primary"><a href = "http://renocollective.com" target = "_blank">Reno Collective</a></strong><br />
-						100 North Arlington Ave. #100<br />
-						Reno, NV 89502<br />
-						<span class="font-white">(775) 391-0195</span>
-					</p>
-
-					<h3>Email</h3>
-					<a href="#" class="link-email" title="Email">hack4reno@renocollective.com</a>
-				</div><!-- // .box-contact -->
-
-				<!--<a href="#" class="link-pdf"><span>Download</span><br /><span>Poster</span></a>-->
-			</div><!-- // .four -->
-
-			 <div class="clear"></div>
-		</div><!-- // .container -->
-	</div><!-- // #section-register -->
-
-
-	<!-- Schedule
-	================================================== -->
-	<div id="section-programs">
-		<div class="container">
-			<div class="sixteen columns">
-				<h2>Schedule</h2>
-
-				<table>
-					<thead>
-						<tr>
-							<td>Time</td>
-							<td>Day 1: Saturday, October 25th, 2014</td>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>08:30 AM</td>
-							<td>Registration &amp; last minute team formation</td>
-						</tr>
-						<tr>
-							<td>9:00 AM</td>
-							<td>Introduction &amp; Welcome</td>
-						</tr>
-						<tr>
-							<td>9:20 AM</td>
-							<td>Start Building!</td>
-						</tr>
-						<tr>
-							<td>12:00 PM</td>
-							<td>Lunch</td>
-						</tr>
-						<tr>
-							<td>5:00 PM</td>
-							<td>Dinner</td>
-						</tr>
-						<tr>
-							<td>10:00 PM</td>
-							<td>Break until morning</td>
-						</tr>
-					</tbody>
-				</table>
+			<section class="hero-slider">
+				<ul class="slides">
+					<li class="countdown-header primary-overlay">
+						<div class="background-image-holder parallax-background">
+							<img class="background-image" alt="About Image" src="img/hero5.jpg">
+						</div>
+					
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+									<img alt="logo" class="logo" src="img/logo.png">
+									<span class="uppercase text-white">November 7th -  Reno, NV</span>
+									<h1 class="text-white large-h1">A day of open data, technology and civic engagement.</h1>
+								</div>
+							</div><!--end of row-->
+						
+							<div class="row">
+								<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+									<div class="countdown" data-date="2015/11/07"></div>
+								</div>
+							</div>
+						</div><!--end of container-->
+					</li>
+				</ul>
+			</section>
+		
+		
+		</div>
+		<div class="footer-container">			
+			<footer class="classic">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-3">
+							<ul class="menu">
+								<li><a class="inner-link back-to-top" href="#top">Back To Top</a></li>
+							</ul>
+						</div>
+					
+						<div class="col-sm-5">
+							<span class="lead color-heading">About Hack For Reno</span>
+							<p>
+								<strong>Hack for Reno</strong> has traditionally been a weekend hackathon event for building apps that create a more informed and engaged community in the city of Reno. To further that goal this year, we're hosting the first <strong>Hack For Reno Summit</strong>, a day of short talks, panels and activities that will explore the intersections of technology and government.
+						</div>
+					
+						<div class="col-sm-4">
+							<ul class="contact-methods">
+								<li><i class="icon pe-7s-mail"></i><span>hack4reno@renocollective.com</span></li>
+								<li><i class="pe-7s-clock icon-large"></i><span>November 7th @ 10am</span></li>
+								<li><i class="icon pe-7s-map-marker"></i><span><a style = "color: #777777; font-weight: normal; text-decoration: none; border-bottom: none" href = "http://renocollective.com/contact">Reno Collective</a></span></li>
+							</ul>
+						</div>
+					</div><!--end of row-->
 				
-				<table>
-					<thead>
-						<tr>
-							<td>Time</td>
-							<td>Day 2: Sunday, October 26th, 2014</td>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>9:00 AM</td>
-							<td>Building resumes!</td>
-						</tr>
-						<tr>
-							<td>9:15 AM</td>
-							<td>Breakfast</td>
-						</tr>
-						<tr>
-							<td>12:00 PM</td>
-							<td>Lunch</td>
-						</tr>
-						<tr>
-							<td>3:00 PM</td>
-							<td>Building stops! Start prepping for demos</td>
-						</tr>
-						<tr>
-							<td>4:00 PM</td>
-							<td>Team Demos &amp; Prizes</td>
-						</tr>
-					</tbody>
-					<tfoot>
-						<tr>
-							<td colspan="2">
-								<span id="line-sponsor">Makers gonna make</span></span>
-							</td>
-						</tr>
-					</tfoot>
-				</table>
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<ul class="social-profiles">
+								<li><a href="https://twitter.com/hack4reno"><i class="icon social_twitter"></i></a></li>
+								<li><a href="https://facebook.com/hack4reno"><i class="icon social_facebook"></i></a></li>
+							</ul>	
+						</div>
+					</div><!--end of row-->
+				</div><!--end of container-->
+			</footer>
+		</div>
 				
-			</div><!-- // .sixteen -->
-
-			<div class="clear"></div>
-		</div><!-- // .container -->
-	</div><!-- // #section-programs -->
-
-
-	<!-- Sponsors
-	================================================== -->
-	<div id="section-sponsors">
-		<div class="container">
-			<div class="four columns">
-				<h2>Sponsors</h2>
-			</div><!-- // .four -->
-
-			<div class="three columns">
-				<a href="http://accela.com/" title="Accela" target = "_blank"><img src="images/accela_logo.gif" alt="" /></a>
-			</div><!-- // .three -->
-			<div class="three columns">
-				<a href="http://noblestudios.com/" title="Noble Studios" target = "_blank"><img src="images/noble_studios_logo.jpeg" alt="" /></a>
-			</div><!-- // .three -->
-			<div class="three columns">
-				<a href="http://www.granicus.com/" title="Granicus" target = "_blank"><img src="images/granicus_logo_white.png" alt="" /></a>
-			</div><!-- // .three -->
-			<div class="three columns">
-				<a href="http://www.renotracks.com/" title="RenoTracks" target = "_blank"><img src="images/renotracks_logo.png" alt="" /></a>
-			</div><!-- // .three -->
-			<div class="four columns">
-				<a href="http://renocollective.com/" title="Reno Collective" target = "_blank"><img src="images/renocollective.png" alt="" /></a>
-			</div><!-- // .three -->
-			<div class="three columns">
-				<a href="http://www.noip.com/" title="No-IP" target = "_blank"><img src="images/noip_logo.png" alt="" /></a>
-			</div><!-- // .three -->
-			<div class="three columns">
-				<a href="http://kps3.com/" title="KPS3" target = "_blank"><img src="images/kps3_logo_white.png" alt="" /></a>
-			</div><!-- // .three -->
-			<div class="three columns">
-				<a href="http://www.hubcoffeeroasters.com/" title="Hub Coffee Roasters" target = "_blank"><img src="images/hub_logo_white.png" alt="" /></a>
-			</div><!-- // .three -->
-			<div class="three columns">
-				<a href="https://pinocc.io/" title="Pinoccio" target = "_blank"><img src="images/pinoccio_logo_white.png" alt="" /></a>
-			</div><!-- // .three -->
-			<div class="three columns">
-				<a href="https://en.bitcoin.it" title="Bitcoin" target = "_blank"><img src="images/bitcoin_logo_small.png" alt="" /></a>
-			</div><!-- // .three -->
-			<div class="three columns">
-				<a href="http://www.tmrpa.org/" title="Truckee Meadows Regional Planning Agency" target = "_blank"><img src="images/tmrpa_logo.png" alt="" /></a>
-			</div><!-- // .three -->
-			<div class="three columns">
-				<a href="http://www.reno.gov/" title="City of Reno" target = "_blank"><img src="images/reno_logo.png" alt="" /></a>
-			</div><!-- // .three -->
-			<div class="ten columns">
-				<p style = "color: white">Interested in sponsoring Hack4Reno 2014? <a href = "mailto:hack4reno@renocollective.com" target = "_blank" style = "color: white">Drop us a line</a></p>	
-			</div><!-- // .three -->
-
-			<div class="clear"></div>
-		</div><!-- // .container -->
-	</div><!-- // #section-sponsors -->
-	
-
-
-	<!-- Footer
-	================================================== -->
-	<div id="section-footer">
-		<div class="container">
-			<div class="five columns">
-				<p id="copytext">Copyright &copy; <a href="http://www.hack4reno.com/" title="">Hack4Reno</a> 2014</p>
-			</div><!-- // .eight -->
-			
-			<div class="five columns">
-				<p id="copytext">Projects and results from <a href="index_2013.html" title="">2013</a></p>
-			</div><!-- // .eight -->
-
-			<div class="five columns">
-				<ul id="social">
-					<li><a href="http://www.facebook.com/hack4reno" title=""><img src="images/icons/icon_facebook.png" alt="Facebook" /></a></li>
-					<li><a href="http://www.twitter.com/hack4reno" title=""><img src="images/icons/icon_twitter.png" alt="Twitter" /></a></li>
-				</ul><!-- // ul#social -->
-			</div><!-- // .eight -->
-
-			<div class="clear"></div>
-		</div><!-- // .container -->
-	</div><!-- // #section-footer -->
-
-
-
-	<!-- Javascript files
-	================================================== -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	
-	<script src="js/selectnav.min.js"></script>
-	<script src="js/bootstrap-scrollspy.js"></script>
-	<script src="js/jquery.custom.js"></script>
-
-<!-- End Document
-================================================== -->
-</body>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/skrollr.min.js"></script>
+        <script src="js/spectragram.min.js"></script>
+        <script src="js/flexslider.min.js"></script>
+        <script src="js/jquery.plugin.min.js"></script>
+        <script src="js/jquery.countdown.min.js"></script>
+        <script src="js/smooth-scroll.min.js"></script>
+        <script src="js/twitterfetcher.min.js"></script>
+        <script src="js/placeholders.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
+				
