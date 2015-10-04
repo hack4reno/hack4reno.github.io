@@ -766,8 +766,6 @@ nav .container {
     padding-bottom: 0px;
   }
   nav .logo {
-    max-width: 90px;
-    top: -2px;
   }
   nav .logo-dark {
     opacity: 1 !important;
