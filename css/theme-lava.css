@@ -453,7 +453,7 @@ p a,
 // 7. Navigation
 // --------------------------------------------------*/
 nav .logo {
-  max-height: 45px;
+  max-height: 30px;
   max-width: 110px;
   position: absolute;
   top: -6px;
@@ -973,7 +973,7 @@ nav .container {
 .countdown-divider img,
 .countdown-header img,
 .video-header img {
-  max-width: 300px;
+  max-width: 350px;
   display: inline-block;
   margin-bottom: 12px;
 }
