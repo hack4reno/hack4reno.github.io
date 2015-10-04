@@ -871,7 +871,7 @@ nav .container {
 }
 .register-header .logo,
 .hero-slide .logo {
-  max-width: 150px;
+  max-width: 300px;
   display: block;
   margin-bottom: 12px;
 }
@@ -1411,7 +1411,6 @@ nav .container {
   display: none;
 }
 .schedule-overview {
-  border: 2px solid rgba(0, 0, 0, 0.2);
   margin-bottom: 36px;
 }
 .schedule-overview li {
@@ -1436,19 +1435,13 @@ nav .container {
   color: #333333;
 }
 .schedule-text {
-  max-height: 0px;
-  transition: all 0.3s ease-out;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  opacity: 0;
+
 }
 .schedule-overview li:hover {
   background-color: #f5f5f5;
 }
 .schedule-overview li:hover .schedule-text {
-  max-height: 300px;
-  opacity: 1;
-  padding-top: 18px;
+
 }
 .schedule-overview li:hover .top,
 .schedule-overview li:hover .bottom,
@@ -2232,7 +2225,7 @@ form .field-error {
 }
 footer.classic {
   padding: 72px 0px 36px 0px;
-  background: #f5f5f5;
+  background: white;
 }
 footer.classic .menu li {
   float: none;
