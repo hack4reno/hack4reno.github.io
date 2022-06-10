@@ -877,7 +877,7 @@ button,
       left: 2em; } }
   @media screen and (max-width: 360px) {
     #footer {
-      bottom: 1.25em;
+      bottom: 0em;
       left: 1.25em; } }
   @media screen and (max-height: 640px) {
     #footer {
